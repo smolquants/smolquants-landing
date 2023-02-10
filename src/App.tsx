@@ -46,25 +46,19 @@ const smolQuantsWork: Array<SmolQuantsWorkAsset> = [
 function App() {
   return (
     <div className="col-lg-8 mx-auto p-4 py-md-5">
-      <Stack gap={3}>
-        <Container
-          fluid="md"
-          style={{ marginBottom: "1.5rem", maxWidth: "40rem" }}
-        >
+      <Stack gap={5}>
+        <Container fluid="md" style={{ maxWidth: "40rem" }}>
           <Stack direction="horizontal" gap={3}>
             <Image src={SmolQuants_Logo} height={60}></Image>
             <Card.Header style={{ fontSize: "32px" }}>SmolQuants</Card.Header>
           </Stack>
         </Container>
 
-        <Container
-          fluid="md"
-          style={{ marginBottom: "2rem", maxWidth: "40rem" }}
-        >
-          <Card style={{ border: "none", margin: "16px 0", maxWidth: "40rem" }}>
-            <Card.Title>
+        <Container fluid="md" style={{ maxWidth: "40rem" }}>
+          <Card style={{ border: "none", maxWidth: "40rem" }}>
+            <h5>
               <b>Economic Risk Audits for DeFi Protocols</b>
-            </Card.Title>
+            </h5>
             <Card.Text>
               SmolQuants is a collective of DeFi Risk researchers. We provide
               economic risk consulting & auditing services to various DeFi
@@ -83,12 +77,9 @@ function App() {
           </Card>
         </Container>
 
-        <Container
-          fluid="md"
-          style={{ marginBottom: "2rem", maxWidth: "40rem" }}
-        >
-          <Row>
-            <Col xs={6}>
+        <Container fluid="md" style={{ maxWidth: "40rem" }}>
+          <div className="row g-5">
+            <Col md={6}>
               <Stack gap={2}>
                 <Card.Header>Links</Card.Header>
                 <Card.Link
@@ -102,7 +93,7 @@ function App() {
                 </Card.Link>
               </Stack>
             </Col>
-            <Col>
+            <Col md={6}>
               <Stack gap={2}>
                 <Card.Header>Our Work</Card.Header>
                 {smolQuantsWork.map((asset, index) => (
@@ -112,7 +103,7 @@ function App() {
                 ))}
               </Stack>
             </Col>
-          </Row>
+          </div>
         </Container>
       </Stack>
     </div>
