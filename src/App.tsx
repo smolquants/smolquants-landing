@@ -61,11 +61,11 @@ function App() {
         <Card style={{ border: "none", margin: "16px 0", maxWidth: "40rem" }}>
           <Card.Title>Economic Risk Audits for DeFi Protocols</Card.Title>
           <Card.Text>
-            SmolQuants is a collective of DeFi Risk experts. We provide economic
-            risk consulting & auditing services to various DeFi protocols.
-            Beyond audit and advisory services, we also build open-source
-            research tools that will support builders in making DeFi safer for
-            all participants.
+            SmolQuants is a collective of DeFi Risk researchers. We provide
+            economic risk consulting & auditing services to various DeFi
+            protocols. Beyond audit and advisory services, we also build
+            open-source research tools that will support builders in making DeFi
+            safer for all participants.
           </Card.Text>
           <Button
             href="https://airtable.com/shrqhCDLlaL784GGa"
