@@ -47,15 +47,18 @@ const smolQuantsWork: Array<SmolQuantsWorkAsset> = [
 function App() {
   return (
     <AppContainer>
-      <Container style={{ marginBottom: "1.5rem", width: "40rem" }}>
+      <Container
+        fluid="md"
+        style={{ marginBottom: "1.5rem", maxWidth: "40rem" }}
+      >
         <Stack direction="horizontal" gap={3}>
           <Image src={SmolQuants_Logo} height={60}></Image>
           <Card.Title style={{ fontSize: "32px" }}>SmolQuants</Card.Title>
         </Stack>
       </Container>
 
-      <Container style={{ marginBottom: "2rem", width: "40rem" }}>
-        <Card style={{ border: "none", margin: "16px 0", width: "40rem" }}>
+      <Container fluid="md" style={{ marginBottom: "2rem", maxWidth: "40rem" }}>
+        <Card style={{ border: "none", margin: "16px 0", maxWidth: "40rem" }}>
           <Card.Title>Economic Risk Audits for DeFi Protocols</Card.Title>
           <Card.Text>
             SmolQuants is a collective of DeFi Risk experts. We provide economic
@@ -75,7 +78,7 @@ function App() {
         </Card>
       </Container>
 
-      <Container style={{ marginBottom: "2rem", width: "40rem" }}>
+      <Container fluid="md" style={{ marginBottom: "2rem", maxWidth: "40rem" }}>
         <Row>
           <Col xs={6}>
             <Stack gap={2}>
