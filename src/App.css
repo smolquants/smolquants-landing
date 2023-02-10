@@ -3,3 +3,8 @@ body{
   /* font-family: 'Inconsolata', monospace; */
   font-family: 'Source Serif Pro', serif;
 }
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+}
