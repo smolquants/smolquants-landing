@@ -20,6 +20,30 @@ const AppContainer = styled.div`
   justify-content: center;
 `;
 
+interface SmolQuantsWorkAsset {
+  description: string;
+  link: string;
+}
+
+const smolQuantsWork: Array<SmolQuantsWorkAsset> = [
+  {
+    description: "ETH Merge Data Challenge",
+    link: "https://hackmd.io/@fmrmf/HyFXVQdVo",
+  },
+  {
+    description: "Generalizable DeFi Backtester",
+    link: "https://github.com/smolquants/backtest-ape",
+  },
+  {
+    description: "DeFi Risk Analysis Tool",
+    link: "https://github.com/smolquants/ape-risk",
+  },
+  {
+    description: "Y2K",
+    link: "https://github.com/smolquants/y2k-audit-2022/blob/main/audit/audit.pdf",
+  },
+];
+
 function App() {
   return (
     <AppContainer>
@@ -62,7 +86,7 @@ function App() {
               >
                 About Us
               </Card.Link>
-              <Card.Link href="https://github.com/smolquant" target="_blank">
+              <Card.Link href="https://github.com/smolquants" target="_blank">
                 Github
               </Card.Link>
             </Stack>
@@ -70,12 +94,11 @@ function App() {
           <Col>
             <Stack gap={2}>
               <Card.Title>Our Work</Card.Title>
-              <Card.Link
-                href="https://github.com/smolquants/y2k-audit-2022/blob/main/audit/audit.pdf"
-                target="_blank"
-              >
-                Y2K
-              </Card.Link>
+              {smolQuantsWork.map((asset, index) => (
+                <Card.Link href={asset.link} target="_blank">
+                  {asset.description}
+                </Card.Link>
+              ))}
             </Stack>
           </Col>
         </Row>
