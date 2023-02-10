@@ -53,13 +53,15 @@ function App() {
       >
         <Stack direction="horizontal" gap={3}>
           <Image src={SmolQuants_Logo} height={60}></Image>
-          <Card.Title style={{ fontSize: "32px" }}>SmolQuants</Card.Title>
+          <Card.Header style={{ fontSize: "32px" }}>SmolQuants</Card.Header>
         </Stack>
       </Container>
 
       <Container fluid="md" style={{ marginBottom: "2rem", maxWidth: "40rem" }}>
         <Card style={{ border: "none", margin: "16px 0", maxWidth: "40rem" }}>
-          <Card.Title>Economic Risk Audits for DeFi Protocols</Card.Title>
+          <Card.Title>
+            <b>Economic Risk Audits for DeFi Protocols</b>
+          </Card.Title>
           <Card.Text>
             SmolQuants is a collective of DeFi Risk researchers. We provide
             economic risk consulting & auditing services to various DeFi
@@ -82,9 +84,9 @@ function App() {
         <Row>
           <Col xs={6}>
             <Stack gap={2}>
-              <Card.Title>Links</Card.Title>
+              <Card.Header>Links</Card.Header>
               <Card.Link
-                href="https://app.gitbook.com/o/pjyIvdmFsgl3q0dQOa9T/s/jMHEocVZwQUdszK9KkFQ/"
+                href="https://smolquants.gitbook.io/about-us/"
                 target="_blank"
               >
                 About Us
@@ -96,7 +98,7 @@ function App() {
           </Col>
           <Col>
             <Stack gap={2}>
-              <Card.Title>Our Work</Card.Title>
+              <Card.Header>Our Work</Card.Header>
               {smolQuantsWork.map((asset, index) => (
                 <Card.Link href={asset.link} target="_blank">
                   {asset.description}
