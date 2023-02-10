@@ -69,7 +69,7 @@ function App() {
           </Col>
           <Col>
             <Stack gap={2}>
-              <Card.Title>Past Work</Card.Title>
+              <Card.Title>Our Work</Card.Title>
               <Card.Link
                 href="https://github.com/smolquants/y2k-audit-2022/blob/main/audit/audit.pdf"
                 target="_blank"
