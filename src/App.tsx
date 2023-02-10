@@ -40,7 +40,12 @@ function App() {
             research tools that will support builders in making DeFi safer for
             all participants.
           </Card.Text>
-          <Button size="lg" style={{ width: "20rem" }}>
+          <Button
+            href="https://airtable.com/shrqhCDLlaL784GGa"
+            target="_blank"
+            size="lg"
+            style={{ width: "20rem" }}
+          >
             Schedule Audit
           </Button>
         </Card>
@@ -51,16 +56,24 @@ function App() {
           <Col xs={6}>
             <Stack gap={2}>
               <Card.Title>Links</Card.Title>
-              <Card.Link href="https://app.gitbook.com/o/pjyIvdmFsgl3q0dQOa9T/s/jMHEocVZwQUdszK9KkFQ/">
+              <Card.Link
+                href="https://app.gitbook.com/o/pjyIvdmFsgl3q0dQOa9T/s/jMHEocVZwQUdszK9KkFQ/"
+                target="_blank"
+              >
                 Documentation
               </Card.Link>
-              <Card.Link href="https://github.com/smolquant">Github</Card.Link>
+              <Card.Link href="https://github.com/smolquant" target="_blank">
+                Github
+              </Card.Link>
             </Stack>
           </Col>
           <Col>
             <Stack gap={2}>
               <Card.Title>Past Work</Card.Title>
-              <Card.Link href="https://github.com/smolquants/y2k-audit-2022/blob/main/audit/audit.pdf">
+              <Card.Link
+                href="https://github.com/smolquants/y2k-audit-2022/blob/main/audit/audit.pdf"
+                target="_blank"
+              >
                 Y2K
               </Card.Link>
             </Stack>
