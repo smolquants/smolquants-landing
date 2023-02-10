@@ -7,6 +7,7 @@ import {
   Container,
   Col,
   Row,
+  Stack,
 } from "react-bootstrap";
 import SmolQuants_Logo from "./assets/images/smolquants-logo.jpg";
 import "./App.css";
@@ -19,37 +20,40 @@ function App() {
         <Navbar.Text>SmolQuants</Navbar.Text>
       </Container>
       <Container>
-        <Card>
-          <Card.Title>Economic Risk Audits for DeFi Protocols</Card.Title>
-          <Card.Text>
-            Quickly and easily get started with Bootstrap's compiled,
-            production-ready files with this barebones example featuring some
-            basic HTML and helpful links. Download all our examples to get
-            started.
+        <Card style={{ border: "none", margin: "16px 0" }}>
+          <Card.Title style={{ width: "24rem" }}>
+            Economic Risk Audits for DeFi Protocols
+          </Card.Title>
+          <Card.Text style={{ width: "40rem" }}>
+            SmolQuants is a collective of DeFi Risk experts. We provide economic
+            risk consulting & auditing services to various DeFi protocols.
+            Beyond audit and advisory services, we also build open-source
+            research tools that will support builders in making DeFi safer for
+            all participants.
           </Card.Text>
-          <Button>Schedule Audit</Button>
+          <div>
+            <Button size="lg">Schedule Audit</Button>
+          </div>
         </Card>
       </Container>
       <Container>
         <Row>
-          <Col>
-            <Card.Title>Start Projects</Card.Title>
-            <Card.Text>
-              Ready to beyond the starter template? Check out these open source
-              projects that you can quickly duplicate to a new GitHub
-              repository.
-            </Card.Text>
-            <Card.Link>Bootstrap npm starter</Card.Link>
-            <Card.Link>Bootstrap Parcel starter (coming soon!)</Card.Link>
+          <Col xs={6}>
+            <Card.Title>Links</Card.Title>
+            <Stack>
+              <Card.Link href="https://app.gitbook.com/o/pjyIvdmFsgl3q0dQOa9T/s/jMHEocVZwQUdszK9KkFQ/">
+                Documentation
+              </Card.Link>
+              <Card.Link href="https://github.com/smolquant">Github</Card.Link>
+            </Stack>
           </Col>
           <Col>
-            <Card.Title>Guides</Card.Title>
-            <Card.Text>
-              Read more detailed instructions and documentation on using or
-              contributing to Bootstrap.
-            </Card.Text>
-            <Card.Link>Bootstrap quick start guide</Card.Link>
-            <Card.Link>Bootstrap Webpack guide</Card.Link>
+            <Card.Title>Past Work</Card.Title>
+            <Stack>
+              <Card.Link href="https://github.com/smolquants/y2k-audit-2022/blob/main/audit/audit.pdf">
+                Y2K
+              </Card.Link>
+            </Stack>
           </Col>
         </Row>
       </Container>
