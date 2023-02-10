@@ -1,23 +1,6 @@
-import React from "react";
-import {
-  Image,
-  Navbar,
-  Button,
-  Card,
-  Container,
-  Col,
-  Row,
-  Stack,
-} from "react-bootstrap";
-import styled from "styled-components";
+import { Image, Button, Card, Container, Col, Stack } from "react-bootstrap";
 import SmolQuants_Logo from "./assets/images/smolquants-logo.jpg";
 import "./App.css";
-
-const AppContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-`;
 
 interface SmolQuantsWorkAsset {
   description: string;
@@ -81,25 +64,30 @@ function App() {
           <div className="row g-5">
             <Col md={6}>
               <Stack gap={2}>
-                <Card.Header>Links</Card.Header>
-                <Card.Link
+                <h6>Links</h6>
+                <a
                   href="https://smolquants.gitbook.io/about-us/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   About Us
-                </Card.Link>
-                <Card.Link href="https://github.com/smolquants" target="_blank">
+                </a>
+                <a
+                  href="https://github.com/smolquants"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Github
-                </Card.Link>
+                </a>
               </Stack>
             </Col>
             <Col md={6}>
               <Stack gap={2}>
-                <Card.Header>Our Work</Card.Header>
+                <h6>Our Work</h6>
                 {smolQuantsWork.map((asset, index) => (
-                  <Card.Link href={asset.link} target="_blank">
+                  <a href={asset.link} target="_blank" rel="noreferrer">
                     {asset.description}
-                  </Card.Link>
+                  </a>
                 ))}
               </Stack>
             </Col>
