@@ -46,7 +46,7 @@ function App() {
             size="lg"
             style={{ width: "20rem" }}
           >
-            Schedule Audit
+            Contact Us
           </Button>
         </Card>
       </Container>
@@ -60,7 +60,7 @@ function App() {
                 href="https://app.gitbook.com/o/pjyIvdmFsgl3q0dQOa9T/s/jMHEocVZwQUdszK9KkFQ/"
                 target="_blank"
               >
-                Documentation
+                About Us
               </Card.Link>
               <Card.Link href="https://github.com/smolquant" target="_blank">
                 Github
