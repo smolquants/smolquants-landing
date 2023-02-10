@@ -7,6 +7,8 @@ const AppContainer = styled.div`
   display: flex;
   min-height: 100vh;
   align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 `;
 
 interface SmolQuantsWorkAsset {
@@ -38,11 +40,7 @@ function App() {
     <AppContainer>
       <div className="col-lg-8 mx-auto p-3 py-md-5 align-middle">
         <Stack gap={5}>
-          <Container
-            className="mb-3 mt-5"
-            fluid="md"
-            style={{ maxWidth: "40rem" }}
-          >
+          <Container className="mb-3" fluid="md" style={{ maxWidth: "40rem" }}>
             <Stack direction="horizontal" gap={3}>
               <Image src={SmolQuants_Logo} height={60}></Image>
               <h2>SmolQuants</h2>
