@@ -71,7 +71,7 @@ function App() {
             href="https://airtable.com/shrqhCDLlaL784GGa"
             target="_blank"
             size="lg"
-            style={{ width: "20rem" }}
+            style={{ maxWidth: "20rem" }}
           >
             Contact Us
           </Button>
