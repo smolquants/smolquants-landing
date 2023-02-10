@@ -28,12 +28,12 @@ const smolQuantsWork: Array<SmolQuantsWorkAsset> = [
 
 function App() {
   return (
-    <div className="col-lg-8 mx-auto p-4 py-md-5">
+    <div className="col-lg-8 mx-auto p-3 py-md-5">
       <Stack gap={5}>
         <Container fluid="md" style={{ maxWidth: "40rem" }}>
           <Stack direction="horizontal" gap={3}>
             <Image src={SmolQuants_Logo} height={60}></Image>
-            <Card.Header style={{ fontSize: "32px" }}>SmolQuants</Card.Header>
+            <div style={{ fontSize: "32px" }}>SmolQuants</div>
           </Stack>
         </Container>
 
