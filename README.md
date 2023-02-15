@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# smolquants-landing
+
+[smolquants.xyz](https://smolquants.xyz) Landing Page.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
