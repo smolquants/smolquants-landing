@@ -57,7 +57,7 @@ function App() {
                 economic risk consulting & auditing services to various DeFi
                 protocols. Beyond audit and advisory services, we also build
                 open-source research tools that will support builders in making
-                DeFi safer for all participants.
+                crypto safer for all participants.
               </Card.Text>
               <Button
                 href="https://airtable.com/shrqhCDLlaL784GGa"
