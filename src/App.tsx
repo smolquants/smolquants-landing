@@ -47,7 +47,9 @@ function App() {
           <Container className="mb-3" fluid="md" style={{ maxWidth: "40rem" }}>
             <Stack direction="horizontal" gap={3}>
               <Image src={SmolQuants_Logo} height={60}></Image>
-              <h2>SmolQuants</h2>
+              <h2>
+                <b>SmolQuants</b>
+              </h2>
             </Stack>
           </Container>
 
