@@ -33,6 +33,10 @@ const smolQuantsWork: Array<SmolQuantsWorkAsset> = [
     description: "Y2K",
     link: "https://github.com/smolquants/y2k-audit-2022/blob/main/audit/audit.pdf",
   },
+  {
+    description: "Papr",
+    link: "https://github.com/smolquants/papr-review-2023-02/tree/main/review",
+  },
 ];
 
 function App() {
