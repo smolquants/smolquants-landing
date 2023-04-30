@@ -66,7 +66,7 @@ function App() {
                 DeFi safer for all participants.
               </Card.Text>
               <Button
-                href="https://airtable.com/shrqhCDLlaL784GGa"
+                href="https://airtable.com/shr2GDPMvAiADQdDF"
                 target="_blank"
                 size="lg"
                 style={{ maxWidth: "20rem" }}
