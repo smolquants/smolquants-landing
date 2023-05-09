@@ -56,12 +56,12 @@ function App() {
           <Container className="mb-4" fluid="md" style={{ maxWidth: "40rem" }}>
             <Card style={{ border: "none", maxWidth: "40rem" }}>
               <h5>
-                <b>Economic Risk Audits for DeFi Protocols</b>
+                <b>Economic Risk Reviews for DeFi Protocols</b>
               </h5>
               <Card.Text>
                 SmolQuants is a collective of DeFi Risk researchers. We provide
-                economic risk consulting & auditing services to various DeFi
-                protocols. Beyond audit and advisory services, we also build
+                economic risk consulting & reviewing services to various DeFi
+                protocols. Beyond reviews and advisory services, we also build
                 open-source research tools that will support builders in making
                 DeFi safer for all participants.
               </Card.Text>
